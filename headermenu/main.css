@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+h1{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+header:hover{
+    background-color: lightsalmon;
+}
+ .menu-area{
+    display: flex;
+    align-items: center;
+ }
+ 
+ nav ul {
+    display: flex;
+    padding: 5px;
+ }
+
+ .login-area{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+ }
+ span{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+ }
+#spanone{
+    background-color: gray;
+    color: black;
+   
+}
+#spantwo{
+    background-color: black;
+    color: white;
+}
+#spanone:hover{
+    background-color: blue;
+    color: red;
+   
+}
